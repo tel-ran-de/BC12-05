@@ -1,3 +1,5 @@
+import lesson4.HomeWorkFrom02And03;
+
 /**
  * Created for BC12-05-2020.
  * User: andron13
@@ -5,6 +7,6 @@
  */
 public class Main {
 	public static void main(String[] args) {
-
+		HomeWorkFrom02And03.cube();
 	}
 }
