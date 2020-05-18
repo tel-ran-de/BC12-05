@@ -1,3 +1,4 @@
+import lesson05Switch.ReviewIf;
 import lesson4.HomeWorkFrom02And03;
 
 /**
@@ -7,6 +8,14 @@ import lesson4.HomeWorkFrom02And03;
  */
 public class Main {
 	public static void main(String[] args) {
-		HomeWorkFrom02And03.cube();
+		System.out.println("Проверка года на високосность, ожидаю false, так как год 1999. ----  "
+				+ ReviewIf.checkLeapYear(1999));
+		System.out.println("Проверка года на високосность, ожидаю true, так как год 2000. ----  "
+				+ ReviewIf.checkLeapYear(2000));
+		System.out.println("Проверка года на високосность, ожидаю false, так как год 1900. ----  "
+				+ ReviewIf.checkLeapYear(1900));
+		System.out.println("Проверка года на високосность, ожидаю true, так как год 2020. ----  "
+				+ ReviewIf.checkLeapYear(2020));
+		System.out.println("Ничего не знаю, просто печатаю 1700: " + ReviewIf.checkLeapYear(1700));
 	}
 }
